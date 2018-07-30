@@ -24,4 +24,7 @@ public class MainActivity extends AppCompatActivity {
     public void startObservableActivity(View view) {
         activityStart(ObservableActivity.class);
     }
+    public void startRecyclerViewActivity(View view) {
+        activityStart(RecyclerViewActivity.class);
+    }
 }
